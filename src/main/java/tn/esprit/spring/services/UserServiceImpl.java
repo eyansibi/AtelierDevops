@@ -47,12 +47,9 @@ public class UserServiceImpl implements IUserService {
 	@Override 
 	public User updateUser(User u) {
 
-		User userUpdated = null; 
-<<<<<<< HEAD
+		User userUpdated = null;
 		User u_save = null;
-=======
-		User u_save = null;
->>>>>>> branche_conflit
+
 
 		
 		try {
