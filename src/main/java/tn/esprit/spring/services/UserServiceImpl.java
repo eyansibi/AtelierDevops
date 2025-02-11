@@ -48,7 +48,11 @@ public class UserServiceImpl implements IUserService {
 	public User updateUser(User u) {
 
 		User userUpdated = null; 
-		User u_saveddd = null;
+<<<<<<< HEAD
+		User u_save = null;
+=======
+		User u_save = null;
+>>>>>>> branche_conflit
 
 		
 		try {
