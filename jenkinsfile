@@ -15,10 +15,13 @@ pipeline {
         }
 
         stage('Compile Stage') {
-            steps {
-                sh 'mvn clean compile'
-            }
+    steps {
+        dir('AtelierDevops') { // Remplace 'AtelierDevops' par le dossier où est ton `pom.xml`
+            sh 'mvn clean compile'
         }
+    }
+}
+
 
         stage('MVN SONARQUBE') {
             steps {
