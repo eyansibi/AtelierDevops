@@ -3,7 +3,7 @@ pipeline {
 
     tools { 
         jdk 'JAVA_HOME' 
-        maven 'Maven_3.6.3' // Remplace par le bon nom configuré dans Jenkins
+        maven 'M2_HOME' // Utilise le bon nom défini dans Jenkins
     }
 
     stages {
